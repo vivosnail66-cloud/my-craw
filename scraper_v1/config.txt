@@ -1,0 +1,18 @@
+[RUNNING]
+USE_PROXY = False
+PROXY_TYPE = PROXY_ADDR
+PAGE_WAITING_TIME = 1
+THREADS = 1
+RETRY_TIMES = 5
+
+
+[PROXY_ADDR]
+USER = user
+PASSWORD = password
+ADDRESS = proxy_address
+
+
+[PROXY_IP]
+USER = user
+PASSWORD = password
+IPS = 127.0.0.1:80;127.0.0.1:443

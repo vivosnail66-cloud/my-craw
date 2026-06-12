@@ -1,0 +1,28 @@
+# page loading time
+PAGE_LOADING_TIME = 30
+ACTION_WAITING_TIME = 5
+
+# path
+# db path and name
+DATA_FILE_PATH = "{}/../data"
+DATABASE_NAME = "bestvibe"
+OUTPUT_PATH = "{}/../data/output/"
+IMAGE_PATH = "{}/../data/media/images/"
+VIDEO_PATH = "{}/../data/media/videos/"
+
+
+# status
+STATUS_INIT = 0
+STATUS_NEED_SUB_TASK = 1
+STATUS_NO_NEED_TO_SCRAPE = 2
+STATUS_NEED_TO_SCRAPE = 3
+STATUS_REQ_ERROR = 4
+STATUS_REQ_SUCCESS = 5
+STATUS_NEED_DETAIL = 6
+STATUS_NO_DATA = 7
+STATUS_PART_SUCCESS = 9
+STATUS_SUCCESS = 100
+
+
+RETRY_LIMIT = 5
+REQ_TIMEOUT = 30
